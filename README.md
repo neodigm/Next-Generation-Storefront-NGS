@@ -18,4 +18,5 @@ Next Generation Storefront NGS ✈️ Travel UX
 [Twitter](https://twitter.com/neodigm24) |
 [Keybase](https://keybase.io/neodigm) |
 [Gists](https://gist.github.com/neodigm) |
+[W3C](https://www.w3.org/users/123844)
 #
