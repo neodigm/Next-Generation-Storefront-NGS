@@ -1,0 +1,22 @@
+@media only screen and (min-width: 768px) {
+.container{display:grid;width:100%;height:60px;grid-template-areas:"leg_departure__time leg_arrival__time leg_duration leg_duration leg_numstops leg_numstops leg_numstops" "leg_departure__time leg_arrival__time leg_departure__airport leg_arrival__airport leg_layover__info leg_layover__info leg_layover__info" "leg_operatedby leg_operatedby leg_operatedby leg_operatedby leg_operatedby leg_operatedby leg_operatedby";grid-template-columns:fit-content(100px) 1fr fit-content(100%) 1fr 1fr 1fr 1fr;grid-template-rows:fit-content(100%) .5fr fit-content(100%);grid-gap:0 10px}
+.leg_airline__name{color: rgba(0,0,0,.56);font-weight: 500;font-size: 13px;line-height: 16px;font-family: inherit;letter-spacing: 0.3px;display: inline;vertical-align: bottom;}
+.leg_arrival__airport::before{content:'-';position:relative;display: inline-block;margin: 0 2px;}
+.leg_arrival__airport{font-size:9px;color:#656565}
+.leg_arrival__airport{grid-area:leg_arrival__airport;align-self:start;margin-top:1px}
+.leg_arrival__time::before{content:'—';left: 0px;position:relative;display: inline-block;margin: 0 10px 0 10px;}
+.leg_arrival__time{grid-area:leg_arrival__time;align-self:center}
+.leg_departure__airport{font-size:12px;color:#656565}
+.leg_departure__airport{grid-area:leg_departure__airport;align-self:start;margin-top:1px}
+.leg_departure__time{grid-area:leg_departure__time;align-self:center}
+.leg_duration, .leg_numstops{white-space: nowrap;font-family: "Open Sans",Roboto,HelveticaNeue,Arial,sans-serif;color: #3c4043;font-size: 13px;line-height: 1;font-weight: 600;-webkit-font-smoothing: antialiased;letter-spacing: normal;}
+.leg_duration{grid-area:leg_duration;align-self:end}
+.leg_layover__duration, .leg_layover__airport, .leg_departure__airport, .leg_arrival__airport, .leg_fare__label {color:rgba(0,0,0,.56);font-weight: 400; font-size: 12px;line-height: 16px;font-family:inherit;letter-spacing: 0.3px;}
+.leg_layover__info > .leg_layover__airport:nth-child(3):before{content:'•';position:relative;margin-right:3px}
+.leg_layover__info{font-size:9px;color:#656565;font-weight:400}
+.leg_layover__info{grid-area:leg_layover__info;align-self:start;margin-top:1px}
+.leg_numstops{grid-area:leg_numstops;align-self:end}
+.leg_operatedby{grid-area:leg_operatedby}
+span.details_link{font-size:9px;color:#8A6295}
+.leg_layover__duration-o {display: none;}
+}

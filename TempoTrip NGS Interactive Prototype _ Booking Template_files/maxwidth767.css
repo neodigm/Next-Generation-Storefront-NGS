@@ -1,0 +1,69 @@
+@media only screen and (max-width: 767px) {
+.char::before{content:url(/NGS/images/Icons/Ellipse.png);display:inline-block;width:6px;height:6px;background:#767676;position:absolute;bottom:-.45em;left:.4rem;text-align:center;width:100%}
+.char{display:inline-block;position:relative}
+.container{display:grid;width:100%;height:58px;grid-template-areas:"leg_departure__time 	leg_layover-times leg_layover-times leg_layover-times leg_arrival__time 	leg_avg__price" "leg_departure__airport leg_layover__line leg_layover__line leg_layover__line leg_arrival__airport 	leg_avg__price" "leg_departure__airport leg_numstops leg_numstops leg_numstops leg_arrival__airport leg_policy__status";grid-template-columns:.5fr 1fr 1fr 1fr 1fr 1fr;grid-template-rows:1fr auto 1fr}
+.flight-card-wrapper{max-width:100%;padding-right:2rem}
+.l-FlightCard {
+margin-left:10px;
+margin-right: 9px;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 0px;
+background-color: white;
+border: 1px solid #DFE3E7;
+}
+
+.flight-summary-wrapper{max-width:100%;padding-right:2rem}
+.flightcard_faregrid{display:none}
+.l-FlightOffer .leg_layover__info{grid-column:2 / 3;grid-row:2}
+.l-FlightOffer .leg_price__info{grid-column:4 /-1;grid-row:1 / -1}
+.l-FlightOffer{display:grid;grid-template-columns:1fr}
+.flightcard_infogrid{display:grid;grid-template-columns:auto minmax(100px,250px) auto 30%;grid-template-rows:auto 1fr}
+.returnflightcard_infogrid{display:grid;grid-template-columns:auto minmax(100px,250px) auto 30%;grid-template-rows:auto 1fr}
+.griditem_arrivalinfo_small{grid-column:3 / 4;grid-row:2 / 3;margin-top:5px;align-self:center}
+.griditem_departinfo_small{grid-column:1 / 2;grid-row:2 / 3;margin-top:5px;align-self:center}
+.griditem_leg__airline{grid-column:1 / 6}
+.griditem_leg__layover-info{grid-column:2 / 3;grid-row:2 / 3;align-self:center;justify-self: auto;}
+.l-flight-offer{}
+.leg_airline__logo{grid-area:leg_airline__logo}
+.leg_airline__name{font-size:11px;color:#767676;font-weight:600}
+.leg_airline__name{grid-area:leg_airline__name}
+.leg_arrival__airport::before{display:none}
+.leg_arrival__airport{font-size:12px;color:#656565;font-weight:600}
+.leg_arrival__airport{grid-area:leg_arrival__airport;align-self:start;margin-bottom:8px}
+.leg_arrival__time::before{display:none}
+.leg_arrival__time{font-size:16px;color:#1A202C;font-weight:600;line-height:1}
+.leg_arrival__time{grid-area:leg_arrival__time;align-self:end}
+.leg_average__price{font-size:18px;color:#1A202C;font-weight:600;text-align:right;line-height:24px}
+.leg_avg__price{grid-area:leg_avg__price;line-height:1}
+.leg_avg__price{grid-area:leg_avg__price}
+.leg_departure__airport{font-size:12px;color:#656565;font-weight:600;display:block}
+.leg_departure__airport{grid-area:leg_departure__airport;align-self:start;margin-bottom:8px}
+.leg_departure__time{font-size:16px;color:#1A202C;font-weight:600;line-height:1}
+.leg_departure__time{grid-area:leg_departure__time;align-self:end}
+.leg_departure__time{grid-area:leg_departure__time}
+.leg_duration::before{content:'•';margin-left:1px;margin-right:3px}
+.leg_duration{font-size:11px;color:#767676;font-weight:600}
+.leg_layover-airports{grid-area:leg_layover-airports}
+.leg_layover-times > span:first-child{grid-column:1}
+.leg_layover-times > span:last-child{grid-column:3}
+.leg_layover-times > span:second-child{grid-column:1}
+.leg_layover-times > span{justify-self:center}
+.leg_layover-times{grid-area:leg_layover-times;align-self:end;display:grid;grid-template-columns:1fr auto 1fr;justify-content:space-around;padding-left:7.5px;padding-right:7.5px}
+.leg_layover__airport{font-size:10px;color:#656565;font-weight:400}
+.leg_layover__duration{font-size:9px;color:#656565;font-weight:600}
+.leg_layover__line{grid-area:leg_layover__line;padding-left:7.5px;padding-right:7.5px}
+.leg_numstops > span.leg_layover__nonstop{grid-column:2}
+.leg_numstops > span.leg_layover_airport:last-child{grid-column:3}
+.leg_numstops > span:first-child{grid-column:1;margin-left:0}
+.leg_numstops > span:last-child{grid-column:3}
+.leg_numstops > span{justify-self:center}
+.leg_numstops{font-size:10px;color:#767676;text-align:center}
+.leg_numstops{grid-area:leg_numstops;display:grid;align-self:start;grid-template-columns:1fr auto 1fr;padding-left:7.5px;padding-right:7.5px}
+.leg_numstops{margin-bottom:5px;position:relative}
+.leg_policy__status{font-size:10px;color:#FEBB00;font-weight:400;text-align:right;line-height:1;margin-top:4px;white-space:nowrap}
+.leg_policy__status{grid-area:leg_policy__status;align-self:start}
+.leg_price__info{margin-right:.5rem}
+.m-leg_fare{grid-column:4 / 5;grid-row:1 / -1;align-self:center;margin-top:5px}
+hr{display:block;border-style:inset;border-width:1px;margin:.15em auto}
+}

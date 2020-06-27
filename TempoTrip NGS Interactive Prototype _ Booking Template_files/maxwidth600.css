@@ -1,0 +1,4 @@
+@media screen and (max-width: 600px) {
+.flight-detail-timeline::after{left:0}
+.right{left:0}
+}
