@@ -2,7 +2,12 @@
 Next Generation Storefront NGS ✈️ Travel UX
 
 [![License: BSD](https://badgen.net/badge/license/BSD/orange)](https://opensource.org/licenses/BSD-3-Clause)
+---
+The Next Generation Storefront™ is a UX & data standard that empowers consumers to make informed flight reservation decisions. NGS presents like options from different airlines taking the guesswork out of the customer journey. It allows travelers to compare apples to apples when shopping online.
 
+This document presents artifacts depicting an NGS implemented design for constructing an accessible, responsive, and progessive single-page booking app. 
+
+While Vue.js is mentioned explicitly, any modern framework(s) may be implemented (Micro Frontend). 
 ---
 ![](https://repository-images.githubusercontent.com/178555357/2b6ad880-7aa0-11ea-8dde-63e70187e3e9)
 #
