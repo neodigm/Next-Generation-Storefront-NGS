@@ -1,7 +1,8 @@
-# Next-Generation-Storefront-NGS
-Next Generation Storefront NGS ✈️ Travel UX
 
 [![License: BSD](https://badgen.net/badge/license/BSD/orange)](https://opensource.org/licenses/BSD-3-Clause)
+
+[Next Generation Storefront NGS ✈️ Travel UX](https://neodigm.github.io/Next-Generation-Storefront-NGS/NGS_VUE_UML_Scott_C_Krause_2020.pdf)
+
 ---
 
 The Next Generation Storefront™ is a UX & data standard that empowers consumers to make informed flight reservation decisions. NGS presents like options from different airlines taking the guesswork out of the customer journey. It allows travelers to compare apples to apples when shopping online.
