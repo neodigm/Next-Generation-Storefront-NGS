@@ -11,7 +11,55 @@ This document presents artifacts depicting an NGS implemented design for constru
 
 This design is a startup travel, expense, and itinerary concierge platform that manages flight, car, and hotel reservations for corporate events.
 
-While Vue.js is mentioned explicitly, any modern framework(s) may be implemented (Micro Frontend). 
+While Vue.js is mentioned explicitly, any modern framework(s) may be implemented (Micro Frontend).
+
+```javascript
+    var oPopOver = (function( _w, _d, _q ){  // Popover UX pattern
+        let arPops = [], ePos, iOffTop=0, iOffLft=0;
+        return {
+            "init": function(){ // wire DOM events
+                arPops= [].slice.call(_d.querySelectorAll(_q));
+                _w.addEventListener("resize", oPopOver.closeAll);
+                _w.addEventListener("scroll", oPopOver.closeAll); 
+                _d.body.addEventListener("click", function( e ){  //  Outside Click close
+                    var eTarget = e.target, bInside = false;
+                    while( eTarget.tagName !== "HTML" ){
+                        if( eTarget.dataset.popover ){ bInside = true; break; }
+                        eTarget = eTarget.parentNode;
+                    }
+                    if( !bInside ){
+                        oPopOver.closeAll();
+                    }
+                }, true);
+            },
+            "open": function(id, evPos){
+                if( arPops.length == 0) return false;
+                oPopOver.closeAll();
+                ePos = evPos.currentTarget;
+                var elPop = arPops.filter(function(el){
+                    return ( el.id == id );
+                })[0];
+                iOffTop = Number(elPop.dataset.popoverPos.split("|")[0]);
+                iOffLft = Number(elPop.dataset.popoverPos.split("|")[1]);
+                elPop.dataset.popover = "true";
+                elPop.style.left = oPopOver.position().left+"px";
+                elPop.style.top = oPopOver.position().top+"px";
+            },
+            "closeAll": function(){
+                if( arPops.length == 0) return false;
+                arPops.filter(function(el){
+                    el.dataset.popover = "false";
+                });
+            },
+            "position": function(){
+                var rec = ePos.getBoundingClientRect(),
+                pxLft = _w.pageXOffset || _d.documentElement.scrollLeft,
+                pxTop = _w.pageYOffset || _d.documentElement.scrollTop;
+                return { top: (rec.top + pxTop + iOffTop), left: (rec.left + pxLft + iOffLft) }
+            }
+        }
+    })(window, _d, "[data-popover]");
+```
 
 <p align="center">
   <a target="_blank" href="https://neodigm.github.io/Next-Generation-Storefront-NGS/NGS_VUE_UML_Scott_C_Krause_2020.pdf">
