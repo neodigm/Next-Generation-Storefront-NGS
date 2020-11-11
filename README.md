@@ -11,6 +11,12 @@ This document presents artifacts depicting an NGS implemented design for constru
 
 While Vue.js is mentioned explicitly, any modern framework(s) may be implemented (Micro Frontend). 
 
+<p align="center">
+  <a target="_blank" href="https://neodigm.github.io/Next-Generation-Storefront-NGS/NGS_VUE_UML_Scott_C_Krause_2020.pdf">
+  <img src="https://neodigm.github.io/Next-Generation-Storefront-NGS/next_generation_storefront_ux_scott_krause.webp" title="NGS UX Next Gen Storefront">
+  </a>
+</p>
+
 #
 [Portfolio Blog](https://www.theScottKrause.com) |
 [🚀 Résumé](https://thescottkrause.com/Arcanus_Scott_C_Krause_2020.pdf) |
