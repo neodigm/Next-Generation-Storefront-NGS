@@ -13,6 +13,12 @@ This design is a startup travel, expense, and itinerary concierge platform that 
 
 While Vue.js is mentioned explicitly, any modern framework(s) may be implemented (Micro Frontend).
 
+<p align="center">
+  <a target="_blank" href="https://neodigm.github.io/Next-Generation-Storefront-NGS/NGS_VUE_UML_Scott_C_Krause_2020.pdf">
+  <img src="https://neodigm.github.io/Next-Generation-Storefront-NGS/next_generation_storefront_ux_scott_krause.webp" title="NGS UX Next Gen Storefront">
+  </a>
+</p>
+
 ```javascript
     var oPopOver = (function( _w, _d, _q ){  // Popover UX pattern
         let arPops = [], ePos, iOffTop=0, iOffLft=0;
@@ -60,12 +66,6 @@ While Vue.js is mentioned explicitly, any modern framework(s) may be implemented
         }
     })(window, _d, "[data-popover]");
 ```
-
-<p align="center">
-  <a target="_blank" href="https://neodigm.github.io/Next-Generation-Storefront-NGS/NGS_VUE_UML_Scott_C_Krause_2020.pdf">
-  <img src="https://neodigm.github.io/Next-Generation-Storefront-NGS/next_generation_storefront_ux_scott_krause.webp" title="NGS UX Next Gen Storefront">
-  </a>
-</p>
 
 #
 [Portfolio Blog](https://www.theScottKrause.com) |
