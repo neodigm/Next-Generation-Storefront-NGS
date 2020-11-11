@@ -20,6 +20,8 @@ While Vue.js is mentioned explicitly, any modern framework(s) may be implemented
 </p>
 
 ```javascript
+.js
+//  A popover is a transient view that shows on a content screen when a user clicks on a control button or within a defined area.     
     var oPopOver = (function( _w, _d, _q ){  // Popover UX pattern
         let arPops = [], ePos, iOffTop=0, iOffLft=0;
         return {
