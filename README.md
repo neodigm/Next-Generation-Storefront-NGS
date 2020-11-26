@@ -3,7 +3,7 @@
 
 [Next Generation Storefront NGS ✈️ Travel Booking UX](https://neodigm.github.io/Next-Generation-Storefront-NGS/NGS_VUE_UML_Scott_C_Krause_2020.pdf)
 
-<hr>
+---
 
 The Next Generation Storefront™ is a UX & data standard that empowers consumers to make informed flight reservation decisions. NGS presents like options from different airlines taking the guesswork out of the customer journey. It allows travelers to compare apples to apples when shopping online.
 
@@ -20,8 +20,7 @@ While Vue.js is mentioned explicitly, any modern framework(s) may be implemented
 </p>
 
 ```javascript
-.js
-//  A popover is a transient view that shows on a content screen when a user clicks on a control button or within a defined area.     
+    //  A popover is a transient view that shows on a content screen when a user clicks on a control button or within a defined area.     
     var oPopOver = (function( _w, _d, _q ){  // Popover UX pattern
         let arPops = [], ePos, iOffTop=0, iOffLft=0;
         return {
