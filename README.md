@@ -20,52 +20,59 @@ While Vue.js is mentioned explicitly, any modern framework(s) may be implemented
 </p>
 
 ```javascript
-    //  A popover is a transient view that shows on a content screen when a user clicks on a control button or within a defined area.     
-    var oPopOver = (function( _w, _d, _q ){  // Popover UX pattern
+//  A popover is a transient view that shows on a content screen when
+//  a user clicks on a control button or within a defined area.
+/*   __  __     __           __  __     __  __    
+    /\ \/\ \   /\ \         /\ \/\ \   /\_\_\_\   
+    \ \ \_\ \  \ \ \        \ \ \_\ \  \/_/\_\/_  
+     \ \_____\  \ \_\        \ \_____\   /\_\/\_\ 
+      \/_____/   \/_/         \/_____/   \/_/\/_/   */
+
+let oPopOver = ( ( _win, _doc, _qry ) => {
         let arPops = [], ePos, iOffTop=0, iOffLft=0;
-        return {
+        return {  // Popover UX pattern
             "init": function(){ // wire DOM events
-                arPops= [].slice.call(_d.querySelectorAll(_q));
-                _w.addEventListener("resize", oPopOver.closeAll);
-                _w.addEventListener("scroll", oPopOver.closeAll); 
-                _d.body.addEventListener("click", function( e ){  //  Outside Click close
-                    var eTarget = e.target, bInside = false;
+                arPops= [].slice.call(_doc.querySelectorAll( _qry ));
+                _win.addEventListener("resize", oPopOver.closeAll);
+                _win.addEventListener("scroll", oPopOver.closeAll); 
+                _doc.body.addEventListener("click", function( e ){ // Outside Click
+                    let eTarget = e.target, bInside = false;
                     while( eTarget.tagName !== "HTML" ){
                         if( eTarget.dataset.popover ){ bInside = true; break; }
                         eTarget = eTarget.parentNode;
                     }
-                    if( !bInside ){
+                    if( !bInside ){ // Tapped Outside of Popover
                         oPopOver.closeAll();
                     }
                 }, true);
             },
-            "open": function(id, evPos){
+            "open": function(id, evPos){ // Open a single Popover
                 if( arPops.length == 0) return false;
                 oPopOver.closeAll();
                 ePos = evPos.currentTarget;
-                var elPop = arPops.filter(function(el){
+                let elPop = arPops.filter(function(el){
                     return ( el.id == id );
                 })[0];
                 iOffTop = Number(elPop.dataset.popoverPos.split("|")[0]);
                 iOffLft = Number(elPop.dataset.popoverPos.split("|")[1]);
-                elPop.dataset.popover = "true";
+                elPop.dataset.popover = "true"; // Open and Active
                 elPop.style.left = oPopOver.position().left+"px";
                 elPop.style.top = oPopOver.position().top+"px";
             },
-            "closeAll": function(){
+            "closeAll": function(){ // Close all Popovers
                 if( arPops.length == 0) return false;
-                arPops.filter(function(el){
+                arPops.map(function(el){
                     el.dataset.popover = "false";
                 });
             },
-            "position": function(){
-                var rec = ePos.getBoundingClientRect(),
-                pxLft = _w.pageXOffset || _d.documentElement.scrollLeft,
-                pxTop = _w.pageYOffset || _d.documentElement.scrollTop;
+            "position": function(){ // Determine Popover position
+                let rec = ePos.getBoundingClientRect(),
+                pxLft = _win.pageXOffset || _doc.documentElement.scrollLeft,
+                pxTop = _win.pageYOffset || _doc.documentElement.scrollTop;
                 return { top: (rec.top + pxTop + iOffTop), left: (rec.left + pxLft + iOffLft) }
             }
         }
-    })(window, _d, "[data-popover]");
+})(window, _doc, "[data-popover]"); // Declarative implementation
 ```
 
 #
