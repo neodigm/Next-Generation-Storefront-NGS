@@ -11,7 +11,7 @@ This document presents artifacts depicting an NGS implemented design for constru
 
 This design is a startup travel, expense, and itinerary concierge platform that manages flight, car, and hotel reservations for corporate events.
 
-While Vue.js is mentioned explicitly, any modern framework(s) may be implemented (Micro Frontend).
+While [Vue.js](https://github.com/neodigm/Next-Generation-Storefront-NGS/tree/gh-pages/vue) is mentioned explicitly, any modern framework(s) may be implemented (Micro Frontend).
 
 <p align="center">
   <a target="_blank" href="https://neodigm.github.io/Next-Generation-Storefront-NGS/NGS_VUE_UML_Scott_C_Krause_2020.pdf">
