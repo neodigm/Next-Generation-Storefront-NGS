@@ -3,12 +3,6 @@
 
 [Next Generation Storefront NGS ✈️ Travel Booking UX](https://neodigm.github.io/Next-Generation-Storefront-NGS/NGS_VUE_UML_Scott_C_Krause_2020.pdf)
 
-<p align="center">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvn.svg" width="88" alt="Vivid Vector Skulduggery">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvg.svg" width="88" alt="Vivid Vector Skulduggery">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvs.svg" width="88" alt="Vivid Vector Skulduggery">
-</p>
-
 The Next Generation Storefront™ is a UX & data standard that empowers consumers to make informed flight reservation decisions. NGS presents like options from different airlines taking the guesswork out of the customer journey. It allows travelers to compare apples to apples when shopping online.
 
 This document presents artifacts depicting an NGS implemented design for constructing an accessible, responsive, and progessive single-page booking app.
@@ -16,6 +10,12 @@ This document presents artifacts depicting an NGS implemented design for constru
 This design is a startup travel, expense, and itinerary concierge platform that manages flight, car, and hotel reservations for corporate events.
 
 While [Vue.js](https://github.com/neodigm/Next-Generation-Storefront-NGS/tree/gh-pages/vue) is mentioned explicitly, any modern framework(s) may be implemented (Micro Frontend).
+
+<p align="center">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvn.svg" width="88" alt="Vivid Vector Skulduggery">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvg.svg" width="88" alt="Vivid Vector Skulduggery">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvs.svg" width="88" alt="Vivid Vector Skulduggery">
+</p>
 
 <p align="center">
   <a target="_blank" href="https://neodigm.github.io/Next-Generation-Storefront-NGS/NGS_VUE_UML_Scott_C_Krause_2020.pdf">
