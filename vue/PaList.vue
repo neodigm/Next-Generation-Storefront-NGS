@@ -88,7 +88,6 @@ export default {
       type: Object,
       required: true
     },
-    // ADMON Types Values
     hasDelta: Boolean,
     hasActions: Boolean,
     filteringDisabled: Boolean,
