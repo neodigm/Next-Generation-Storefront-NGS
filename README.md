@@ -30,8 +30,8 @@ While [Vue.js](https://github.com/neodigm/Next-Generation-Storefront-NGS/tree/gh
     /\ \/\ \   /\ \         /\ \/\ \   /\_\_\_\   
     \ \ \_\ \  \ \ \        \ \ \_\ \  \/_/\_\/_  
      \ \_____\  \ \_\        \ \_____\   /\_\/\_\ 
-      \/_____/   \/_/         \/_____/   \/_/\/_/   */
-
+      \/_____/   \/_/         \/_____/   \/_/\/_/
+🌑🌒🌓🌔🌕🌖🌗🌘🌑*/
 let oPopOver = ( ( _win, _doc, _qry ) => {
         let arPops = [], ePos, iOffTop=0, iOffLft=0;
         return {  // Popover UX pattern
