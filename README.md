@@ -77,6 +77,7 @@ let oPopOver = ( ( _win, _doc, _qry ) => {
             }
         }
 })(window, _doc, "[data-popover]"); // Declarative implementation
+//  DataVis 🚀 Micro Frontend 🚀 PWA
 ```
 
 #
