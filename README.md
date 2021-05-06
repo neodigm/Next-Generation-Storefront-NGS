@@ -12,9 +12,9 @@ This design is a startup travel, expense, and itinerary concierge platform that 
 While [Vue.js](https://github.com/neodigm/Next-Generation-Storefront-NGS/tree/gh-pages/vue) is mentioned explicitly, any modern framework(s) may be implemented (Micro Frontend).
 
 <p align="center">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvn.svg" width="88" alt="Next">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvg.svg" width="88" alt="Generation">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvs.svg" width="88" alt="Storefront">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvn.svg" width="88" alt="Next Generation Storefront">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvg.svg" width="88" alt="Three.js 🚀 TypeScript 🚀 WASM ✨ Go">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvs.svg" width="88" alt="">
 </p>
 
 <p align="center">
