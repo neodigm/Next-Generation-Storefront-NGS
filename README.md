@@ -80,6 +80,12 @@ let oPopOver = ( ( _win, _doc, _qry ) => {
 //  DataVis 🚀 Micro Frontend 🚀 PWA
 ```
 
+<p align="center">
+  <a target="_blank" href="https://neodigm.github.io/Next-Generation-Storefront-NGS/NGS_VUE_UML_Scott_C_Krause_2020.pdf">
+  <img src="https://neodigm.github.io/Next-Generation-Storefront-NGS/airline_seat_1.jpg" title="NGS UX Next Gen Storefront">
+  </a>
+</p>
+
 #
 [Portfolio Blog](https://www.theScottKrause.com) |
 [🚀 Résumé](https://thescottkrause.com/Arcanus_Scott_C_Krause_2020.pdf) |
