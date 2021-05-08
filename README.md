@@ -23,6 +23,8 @@ While [Vue.js](https://github.com/neodigm/Next-Generation-Storefront-NGS/tree/gh
   </a>
 </p>
 
+https://neodigm.github.io/Next-Generation-Storefront-NGS/airline_seat_1.jpg
+
 ```javascript
 //  A popover is a transient view that shows on a content screen when
 //  a user clicks on a control button or within a defined area.
