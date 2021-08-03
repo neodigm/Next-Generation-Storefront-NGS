@@ -9,7 +9,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 > - Star the project
 > - Tweet about it 🚀 
 > - Refer this project in your project's readme
-> - Mention the project at local meetups and tell your friends/colleagues
+> - Mention the project at local meetups and tell your friend
 
 <!-- omit in toc -->
 ## Table of Contents
