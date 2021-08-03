@@ -52,7 +52,7 @@ Depending on how large the project is, you may want to outsource the questioning
 - FAQ
 - Roadmap
 - E-Mail List
-- Forum
+- Forums
 -->
 
 ## I Want To Contribute
