@@ -85,7 +85,7 @@ let oPopOver = ( ( _win, _doc, _qry ) => {
 
 #
 [Portfolio Blog](https://www.theScottKrause.com) |
-[🚀 Résumé](https://www.thescottkrause.com/Arcanus_Scott_C_Krause_2021.pdf) |
+[🚀 Résumé](https://www.thescottkrause.com/Arcanus_Scott_C_Krause_2022.pdf) |
 [NPM](https://www.npmjs.com/~neodigm) |
 [Github](https://github.com/neodigm) |
 [LinkedIn](https://www.linkedin.com/in/neodigm55/) |
