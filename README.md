@@ -1,6 +1,6 @@
 [Next Generation Storefront NGS ✈️ Travel Booking UX](https://neodigm.github.io/Next-Generation-Storefront-NGS/NGS_VUE_UML_Scott_C_Krause_2020.pdf)
 
-The Next Generation Storefront™ is a [UX](https://www.thescottkrause.com/categories/ux/) & data standard that empowers consumers to make informed flight reservation [decisions](https://replit.com/@neodigm/Proximity-Logic). NGS presents like options from different airlines taking the guesswork out of the customer journey. It allows travelers to compare apples to apples when shopping online.
+The Next Generation Storefront™ is a [UX](https://www.thescottkrause.com/categories/ux/) & data standard that empowers consumers to make informed flight reservation decisions. NGS presents like options from different airlines taking the guesswork out of the customer journey. It allows travelers to compare apples to apples when shopping online.
 
 This document presents artifacts depicting an NGS implemented design for constructing an accessible, responsive, and progessive single-page booking app.
 
@@ -86,6 +86,7 @@ let oPopOver = ( ( _win, _doc, _qry ) => {
 #
 [Portfolio Blog](https://www.theScottKrause.com) |
 [🚀 Résumé](https://www.thescottkrause.com/Arcanus_Scott_C_Krause_2022.pdf) |
+[UX micro-library](https://thescottkrause.com/emerging_tech/neodigm55_ux_library/) |
 [NPM](https://www.npmjs.com/~neodigm) |
 [Github](https://github.com/neodigm) |
 [LinkedIn](https://www.linkedin.com/in/neodigm55/) |
