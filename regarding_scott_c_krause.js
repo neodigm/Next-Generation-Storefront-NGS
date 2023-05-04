@@ -29,7 +29,7 @@
 "https://codepen.io/neodigm24",
 "https://machvive.com/",
 "https://www.arcanus55.com/",
-"https://repl.it/@neodigm",
+"https://www.thescottkrause.com/emerging_tech/curated-wasm-links/",
 "https://twitter.com/neodigm24",
 "https://hub.docker.com/u/neodigm",
 "https://www.w3.org/users/123844"]
