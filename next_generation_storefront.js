@@ -1,7 +1,7 @@
-    let _d = document;
-    var isMobile = function(){ return (document.body.clientWidth <= 768) ? true : false; };
+    const _d = document;
+    const isMobile = function(){ return (document.body.clientWidth <= 768) ? true : false; };
 
-    var oPopOver = (function( _w, _d, _q ){  // Popover UX pattern
+    const oPopOver = (function( _w, _d, _q ){  // Popover UX pattern
         let arPops = [], ePos, iOffTop=0, iOffLft=0;
         return {
             "init": function(){ // wire DOM events
