@@ -1,4 +1,5 @@
 <template>
+    <!-- Cloudflare UX PWA SolidJS Lit ThreeJS Vue ✨ HTMX WebAssembly -->
     <article class="l-FlightFareCategories flightcard_grid-header xs:tthidden md:ttgrid" style="box-shadow: 0px 0px 5px #0000001A;">
         <div class="griditem_header-left ttp-2 xs:tthidden md:ttgrid" >
             <div class="">
