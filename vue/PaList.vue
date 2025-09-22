@@ -362,6 +362,7 @@ export default {
     }),
 
     // append query params like show to the route URL
+    //   ✨ Azure Playwright && JavaScript && TypeScript && Go 🪐
     updateRouteColumnFilter() {
       this.$router
         .replace({
