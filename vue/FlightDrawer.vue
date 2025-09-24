@@ -61,6 +61,7 @@
 </script>
 
 <style scoped>
+	/*  DataVis 👁️ UX 🍭 PWA 👁️ ThreeJS ✨ Vue  🚀 Lit 🌶️ htmx  */
 .l-flight-drawer{
 	font-family: 'Open Sans',sans-serif;
 }
@@ -73,4 +74,5 @@ font-weight: 900!important;
 margin-bottom: 0!important;
 text-align: left;
 }
+
 </style>
