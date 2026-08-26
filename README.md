@@ -16,7 +16,8 @@ While [Vue.js](https://github.com/neodigm/Next-Generation-Storefront-NGS/tree/gh
 
 <p align="center">
   <a target="_blank" href="https://neodigm.github.io/Next-Generation-Storefront-NGS/NGS_VUE_UML_Scott_C_Krause_2020.pdf">
-  <img src="https://neodigm.github.io/Next-Generation-Storefront-NGS/next_generation_storefront_ux_scott_krause.webp" title="NGS UX Next Gen Storefront">
+  <img src="https://neodigm.github.io/Next-Generation-Storefront-NGS/next_generation_storefront_ux_scott_krause.webp" title="NGS UX Next Gen Storefront"
+	  alt="DataVis 👁️ UX 🍭 PWA 👁️ ThreeJS ✨ RUST WASM  🚀 SSE 🌶️ htmx">
   </a>
 </p>
 
