@@ -1,5 +1,5 @@
 <script> 
-import { mapState, mapActions } from 'vuex'
+import { mapState, mapActions } from 'vuex'  //  MCP AI Agents Chat UX PWA 3D ThreeJS LLM ✨ HTMX Rust WASM
 import { omit, difference } from 'lodash-es'
 
 const tabsHeight = 48
